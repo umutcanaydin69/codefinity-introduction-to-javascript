@@ -1,0 +1,9 @@
+function getUsersCount() {
+ 
+
+  let users = 157;
+
+  return users;
+}
+
+console.log("Number of Users:", getUsersCount());
