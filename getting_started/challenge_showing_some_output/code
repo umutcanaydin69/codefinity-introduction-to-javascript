@@ -1,0 +1,9 @@
+function initSystem() {
+  
+
+  console.log("System initialized successfully.")
+
+  
+}
+
+initSystem()
