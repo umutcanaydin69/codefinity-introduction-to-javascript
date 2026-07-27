@@ -1,0 +1,11 @@
+function getUserInfo() {
+
+  let firstName = "Alice";
+  let lastName = "Johnson";
+  let age = 25;
+
+  return "User: " + firstName + " " + lastName + " is " + age + " years old.";
+
+}
+
+console.log(getUserInfo());
