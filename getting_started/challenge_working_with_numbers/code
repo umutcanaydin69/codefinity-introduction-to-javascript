@@ -1,0 +1,7 @@
+function getTotalRevenue() {
+
+  return (5 * 17) * 27;
+
+}
+
+console.log(getTotalRevenue());
