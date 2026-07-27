@@ -1,0 +1,11 @@
+function getSubscriptionCost() {
+ 
+  const MONTHLY_PRICE = 9.99
+
+  let userDevices = 3;
+  let totalCost = userDevices * MONTHLY_PRICE;
+
+  return totalCost;
+}
+
+console.log(getSubscriptionCost());
