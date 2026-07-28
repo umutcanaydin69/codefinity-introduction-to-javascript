@@ -1,0 +1,11 @@
+function getWelcomeMessage() {
+ 
+
+  let username = "Alice";
+  let welcomeMessage = "Hello, " + username + "! Welcome to our website.";
+
+
+  return welcomeMessage;
+}
+
+console.log(getWelcomeMessage());
