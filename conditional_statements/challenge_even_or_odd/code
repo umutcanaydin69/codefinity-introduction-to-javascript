@@ -1,0 +1,17 @@
+function checkEvenOdd(num) {
+  let message = "";
+
+  if (num % 2 == 0)
+  {
+      message = "The number is even"
+  }
+
+  if(num % 2 != 0)
+  {
+      message = "The number is odd"
+  }
+
+  return message;
+}
+
+console.log(checkEvenOdd(21));
