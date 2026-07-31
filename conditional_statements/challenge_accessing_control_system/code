@@ -1,0 +1,20 @@
+function checkBuildingAccess() {
+
+  let hasAccessCard = false;
+  let hasSpecialPass = true;
+
+  let message = "";
+
+  if (hasAccessCard || hasSpecialPass) 
+  {
+    message = "Access granted.";
+  }
+  else 
+  {
+    message = "Access denied.";
+  }
+
+  return message;
+}
+
+console.log(checkBuildingAccess());
