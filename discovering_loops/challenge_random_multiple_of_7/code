@@ -1,0 +1,17 @@
+function findMultipleOfSeven() {
+  let number = 3;
+
+  let results = [];
+
+  do{
+      results.push(number);
+      number++;
+  
+  }while((number - 1) % 7 != 0)
+
+
+  return results;
+}
+
+
+console.log(findMultipleOfSeven());
