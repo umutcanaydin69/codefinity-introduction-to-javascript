@@ -1,0 +1,14 @@
+function generateEvenNumbers() 
+{
+  let results = [];
+
+  for (let i=1; i<=10; i++)
+      {
+          results.push(i*2);
+      }
+
+
+  return results;
+}
+
+console.log(generateEvenNumbers());
