@@ -1,0 +1,11 @@
+function updateItemsArray() {
+  let items = ["Apple", "Banana", "Orange", "Grape", "Mango"];
+
+  items.pop();
+  items.shift();
+  
+
+  return items;
+}
+
+console.log(updateItemsArray());
